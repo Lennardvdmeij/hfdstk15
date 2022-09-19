@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>les15</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html">HOME</a>
+        <a href="mijncv.html">CV</a>
+        <a href="contact.html">CONTACT</a>
+    </header>
+
+    <div class="container">
+        <form id="contactgegevens" method="post" action="https://formspree.io/f/mbjbdkvk">
+            <fieldset>
+                <legend>Persoonlijke gegevens</legend>
+                <table>
+                    <tr>
+                        <td><label for="naam">Uw naam:</label></td>
+                        <td><input id="naam" type="text" name="naam"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="leeftijd">Uw leeftijd:</label></td>
+                        <td><input id="leeftijd" type="number" name="leeftijd"></td>
+                    </tr>
+                    <tr>
+                        <td>Uw geslacht:</td>
+                        <td>
+                            <input id="man" type="radio" name="geslacht" value="man">
+                            <label for="man">Man</label>
+                            <input id="vrouw" type="radio" name="geslacht" value="vrouw">
+                            <label for="vrouw">Vrouw</label>
+                            <input id="anders" type="radio" name="geslacht" value="anders">
+                            <label for="anders">Anders</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="adres">Uw adres:</label></td>
+                        <td><input id="adres" type="text" name="adres"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="postcode">Uw postcode:</label></td>
+                        <td><input id="postcode" type="text" name="postcode"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="woonplaats">Uw woonplaats:</label></td>
+                        <td><input id="woonplaats" type="text" name="woonplaats"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Uw email:</label></td>
+                        <td><input id="email" type="email" name="email"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+            <input id="sentbutton" type="submit" value="Verzend">
+        </form>
+    </div>
+
+    <footer>
+        <div id="copyright">
+            <p>
+                <b>COPYRIGHT TERMS OF USE</b><br>Except as permitted by the copyright law applicable to you, you may not
+                reproduce or communicate any of the content on this website, including files downloadable from
+                this website, without the permission of the copyright owner.
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

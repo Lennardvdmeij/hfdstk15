@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 12vh;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 3vh;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+a:hover {
+    background-color: orange;
+    color: black
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0;
+    height: 80vh;
+}
+
+#fotolen {
+    position: absolute;
+    max-height: 80vh;
+    z-index: -1;
+}
+
+.abouttxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 80vh;
+    width: 700px;
+    padding-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: black;
+    height: 8vh;
+}
+
+#copyright {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+
+#CVlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100vh;
+}
+
+#CVlist td,
+#CVlist th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#CVlist tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#CVlist tr:hover {
+    background-color: #ddd;
+}
+
+#CVlist th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: orange;
+    color: white;
+}
+
+
+
+
+
+#contactgegevens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100vh;
+    margin-left: 15%;
+}
+
+#contactgegevens>fieldset {
+    width: 1000px;
+}
+
+#sentbutton {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+#sentbutton:hover {
+    background-color: orange;
+    border-color: orange;
+    color: black;
+}
